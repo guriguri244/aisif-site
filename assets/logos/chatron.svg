@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="chatron">
+  <circle cx="27" cy="28" r="19" fill="#eef6ff" stroke="#2f80ed" stroke-width="5"/>
+  <circle cx="22" cy="28" r="3" fill="#2f80ed"/>
+  <circle cx="30" cy="28" r="3" fill="#2f80ed"/>
+  <circle cx="38" cy="28" r="3" fill="#2f80ed"/>
+  <text x="58" y="37" fill="#0b2145" font-family="Arial, sans-serif" font-size="28" font-weight="700">chatron</text>
+</svg>

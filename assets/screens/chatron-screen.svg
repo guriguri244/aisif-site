@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220" role="img" aria-label="chatron screen placeholder">
+  <rect width="360" height="220" rx="18" fill="#eef6ff"/>
+  <rect x="35" y="22" width="290" height="184" rx="14" fill="#fff" stroke="#b8d5ff"/>
+  <rect x="35" y="22" width="290" height="34" rx="14" fill="#2f80ed"/>
+  <rect x="63" y="78" width="150" height="24" rx="8" fill="#edf2f7"/>
+  <rect x="63" y="118" width="198" height="24" rx="8" fill="#edf2f7"/>
+  <rect x="63" y="158" width="132" height="24" rx="8" fill="#edf2f7"/>
+  <circle cx="292" cy="121" r="24" fill="#eef6ff"/>
+  <text x="180" y="45" fill="#fff" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700">replace with actual UI</text>
+</svg>

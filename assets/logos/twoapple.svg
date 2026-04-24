@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TwoApple">
+  <circle cx="32" cy="32" r="29" fill="#8d6bff"/>
+  <path fill="#fff" d="M18 45 32 14l14 31h-7l-7-17-7 17h-7Z"/>
+  <path fill="#dcd4ff" d="M31 27 23 45h5l4-10 7 10h6L31 27Z"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="office placeholder">
+  <rect width="960" height="600" fill="#10213a"/>
+  <rect x="48" y="48" width="864" height="504" rx="28" fill="#172b49"/>
+  <path d="M420 552V48M560 552V48M700 552V48" stroke="#33445f" stroke-width="5"/>
+  <path d="M70 410h820" stroke="#52627a" stroke-width="4"/>
+  <path d="M176 300 286 110l110 190h-58l-52-96-50 96h-60Z" fill="#fff"/>
+  <text x="430" y="296" fill="#fff" font-family="Arial, sans-serif" font-size="72" font-weight="700">aisif</text>
+  <text x="480" y="458" fill="#b8c7dc" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">office photo placeholder</text>
+</svg>

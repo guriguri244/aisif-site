@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="LSCV">
+  <path fill="#42d1c3" d="M29 8a20 20 0 0 1 17 9l-11 7a8 8 0 1 0 0 8l11 7A20 20 0 1 1 29 8Z"/>
+  <path fill="#8ce2dc" d="M40 14a21 21 0 0 1 8 15H35a8 8 0 0 0-3-6l8-9Z"/>
+  <text x="64" y="37" fill="#076344" font-family="Arial, sans-serif" font-size="30" font-weight="700">LSCV</text>
+</svg>
