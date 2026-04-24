@@ -126,7 +126,7 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      width: clamp(86px, 17%, 132px);
+      width: clamp(112px, 21%, 168px);
       padding: 8px 6px 10px;
       border-radius: 24px;
       background: #111827;
@@ -145,15 +145,14 @@
     }
     .phone-screen {
       overflow: hidden;
+      aspect-ratio: 650 / 1402;
       border-radius: 18px;
       background: #fff;
     }
     .dashboard-mobile {
       width: 100%;
-      height: clamp(174px, 25vw, 260px);
+      height: auto;
       display: block;
-      object-fit: contain;
-      object-position: top center;
     }
     .hero-caption { margin-top: 26px; text-align: center; font-weight: 700; }
     .hero-caption img { display: inline; width: 34px; vertical-align: middle; margin-right: 8px; }
@@ -273,9 +272,8 @@
       .laptop-frame::after { bottom: -8px; height: 8px; }
       .laptop-screen { border-radius: 8px; }
       .dashboard-desktop { height: 210px; }
-      .phone-frame { width: 82px; padding: 7px 5px 8px; border-radius: 18px; }
+      .phone-frame { width: 104px; padding: 7px 5px 8px; border-radius: 18px; }
       .phone-screen { border-radius: 13px; }
-      .dashboard-mobile { height: 168px; }
       .service-grid { grid-template-columns: 1fr; }
       .company-wrap { padding: 28px 18px; gap: 30px; }
       .news-item { grid-template-columns: 1fr; gap: 8px; }
