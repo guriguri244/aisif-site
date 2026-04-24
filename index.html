@@ -78,8 +78,8 @@
     .dashboard-showcase {
       position: relative;
       margin: 0 auto;
-      max-width: 780px;
-      padding: 16px 54px 38px 0;
+      max-width: 720px;
+      padding: 12px 42px 28px 0;
     }
     .dashboard-desktop,
     .dashboard-mobile {
@@ -88,8 +88,9 @@
       background: #fff;
     }
     .dashboard-desktop {
+      display: block;
       width: 100%;
-      aspect-ratio: 2926 / 1456;
+      height: clamp(220px, 28vw, 360px);
       object-fit: cover;
       object-position: left top;
       border-radius: 18px;
@@ -98,11 +99,11 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      width: min(24%, 158px);
-      aspect-ratio: 650 / 1402;
+      width: clamp(72px, 15%, 112px);
+      height: clamp(160px, 24vw, 240px);
       object-fit: cover;
       object-position: top center;
-      border-radius: 22px;
+      border-radius: 18px;
     }
     .hero-caption { margin-top: 26px; text-align: center; font-weight: 700; }
     .hero-caption img { display: inline; width: 34px; vertical-align: middle; margin-right: 8px; }
@@ -136,6 +137,12 @@
       object-fit: contain;
       object-position: bottom center;
       border-radius: 12px;
+    }
+    .dashboard-thumb {
+      object-fit: cover;
+      object-position: left top;
+      border: 1px solid var(--line);
+      background: var(--soft);
     }
     .service-link { margin-top: 18px; color: var(--blue); font-size: .86rem; font-weight: 700; word-break: break-all; }
     .service-link::after { content: "↗"; margin-left: 7px; }
@@ -202,7 +209,7 @@
       .nav-links { display: none; }
       .hero { padding: 72px 0; }
       .hero-grid, .company-wrap { grid-template-columns: 1fr; }
-      .dashboard-showcase { padding-right: 40px; }
+      .dashboard-showcase { max-width: 640px; padding-right: 36px; }
       .service-grid { grid-template-columns: repeat(2, 1fr); }
       .cta-inner, .footer-inner { align-items: flex-start; flex-direction: column; }
     }
@@ -211,9 +218,9 @@
       .brand { font-size: 1.55rem; }
       .brand-mark { width: 38px; height: 38px; }
       .hero { padding: 54px 0; }
-      .dashboard-showcase { padding: 8px 30px 28px 0; }
-      .dashboard-desktop { border-radius: 12px; }
-      .dashboard-mobile { width: 26%; border-radius: 14px; }
+      .dashboard-showcase { padding: 8px 24px 22px 0; }
+      .dashboard-desktop { height: 210px; border-radius: 12px; }
+      .dashboard-mobile { width: 70px; height: 154px; border-radius: 14px; }
       .service-grid { grid-template-columns: 1fr; }
       .company-wrap { padding: 28px 18px; gap: 30px; }
       .news-item { grid-template-columns: 1fr; gap: 8px; }
@@ -313,7 +320,7 @@
               <p>複数のサービス・データを一元管理し、AI分析でマーケティング業務を効率化します。</p>
             </div>
             <div>
-              <img class="service-screen" src="assets/screens/twoapple-dashboard-desktop.png" alt="TwoApple SaaS の画面イメージ">
+              <img class="service-screen dashboard-thumb" src="assets/screens/twoapple-dashboard-desktop.png" alt="TwoApple SaaS の画面イメージ">
               <a class="service-link" href="https://twoapplesaas.com/" target="_blank" rel="noopener">https://twoapplesaas.com/</a>
             </div>
           </article>
