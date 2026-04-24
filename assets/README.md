@@ -20,5 +20,7 @@
 - `assets/screens/lscv-screen.svg`
 - `assets/screens/twoapple-screen.svg`
 - `assets/screens/twoapple-dashboard.svg`
+- `assets/screens/twoapple-dashboard-desktop.png`
+- `assets/screens/twoapple-dashboard-mobile.png`
 
 PNG/JPG に差し替える場合は、`index.html` の該当 `img src` を変更してください。

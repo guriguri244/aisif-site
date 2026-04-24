@@ -75,6 +75,35 @@
     }
     .button::after { content: "›"; font-size: 1.5rem; line-height: 1; }
     .hero-product { align-self: end; }
+    .dashboard-showcase {
+      position: relative;
+      margin: 0 auto;
+      max-width: 780px;
+      padding: 16px 54px 38px 0;
+    }
+    .dashboard-desktop,
+    .dashboard-mobile {
+      border: 1px solid rgba(223,231,242,.92);
+      box-shadow: var(--shadow);
+      background: #fff;
+    }
+    .dashboard-desktop {
+      width: 100%;
+      aspect-ratio: 2926 / 1456;
+      object-fit: cover;
+      object-position: left top;
+      border-radius: 18px;
+    }
+    .dashboard-mobile {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: min(24%, 158px);
+      aspect-ratio: 650 / 1402;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 22px;
+    }
     .hero-caption { margin-top: 26px; text-align: center; font-weight: 700; }
     .hero-caption img { display: inline; width: 34px; vertical-align: middle; margin-right: 8px; }
     .hero-caption small { display: block; color: var(--blue); margin-top: 4px; }
@@ -173,6 +202,7 @@
       .nav-links { display: none; }
       .hero { padding: 72px 0; }
       .hero-grid, .company-wrap { grid-template-columns: 1fr; }
+      .dashboard-showcase { padding-right: 40px; }
       .service-grid { grid-template-columns: repeat(2, 1fr); }
       .cta-inner, .footer-inner { align-items: flex-start; flex-direction: column; }
     }
@@ -181,6 +211,9 @@
       .brand { font-size: 1.55rem; }
       .brand-mark { width: 38px; height: 38px; }
       .hero { padding: 54px 0; }
+      .dashboard-showcase { padding: 8px 30px 28px 0; }
+      .dashboard-desktop { border-radius: 12px; }
+      .dashboard-mobile { width: 26%; border-radius: 14px; }
       .service-grid { grid-template-columns: 1fr; }
       .company-wrap { padding: 28px 18px; gap: 30px; }
       .news-item { grid-template-columns: 1fr; gap: 8px; }
@@ -216,7 +249,10 @@
           <a class="button" href="mailto:info@aisif.jp">お問い合わせ</a>
         </div>
         <div class="hero-product">
-          <img src="assets/screens/twoapple-dashboard.svg" alt="TwoApple SaaS 統合管理画面のイメージ" width="780" height="440">
+          <div class="dashboard-showcase">
+            <img class="dashboard-desktop" src="assets/screens/twoapple-dashboard-desktop.png" alt="TwoApple SaaS デスクトップ管理画面" width="2926" height="1456">
+            <img class="dashboard-mobile" src="assets/screens/twoapple-dashboard-mobile.png" alt="TwoApple SaaS モバイル管理画面" width="650" height="1402">
+          </div>
           <p class="hero-caption">
             <span>統合管理画面</span><br>
             <img src="assets/logos/twoapple.svg" alt="" width="34" height="34">TwoApple ｜ SaaS
@@ -277,7 +313,7 @@
               <p>複数のサービス・データを一元管理し、AI分析でマーケティング業務を効率化します。</p>
             </div>
             <div>
-              <img class="service-screen" src="assets/screens/twoapple-screen.svg" alt="TwoApple SaaS の画面イメージ">
+              <img class="service-screen" src="assets/screens/twoapple-dashboard-desktop.png" alt="TwoApple SaaS の画面イメージ">
               <a class="service-link" href="https://twoapplesaas.com/" target="_blank" rel="noopener">https://twoapplesaas.com/</a>
             </div>
           </article>
