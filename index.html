@@ -149,14 +149,15 @@
 
     .cta {
       margin: 24px 0 0;
-      padding: 44px 60px;
+      padding: 44px 0;
+      background: var(--blue-dark);
+      color: #fff;
+    }
+    .cta-inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 32px;
-      border-radius: 10px;
-      background: var(--blue-dark);
-      color: #fff;
     }
     .cta h2 { font-size: 1.75rem; }
     .cta p { margin: 10px 0 0; color: rgba(255,255,255,.86); font-weight: 600; }
@@ -173,7 +174,7 @@
       .hero { padding: 72px 0; }
       .hero-grid, .company-wrap { grid-template-columns: 1fr; }
       .service-grid { grid-template-columns: repeat(2, 1fr); }
-      .cta, .footer-inner { align-items: flex-start; flex-direction: column; }
+      .cta-inner, .footer-inner { align-items: flex-start; flex-direction: column; }
     }
     @media (max-width: 640px) {
       .container { width: min(100% - 28px, 1180px); }
@@ -183,7 +184,7 @@
       .service-grid { grid-template-columns: 1fr; }
       .company-wrap { padding: 28px 18px; gap: 30px; }
       .news-item { grid-template-columns: 1fr; gap: 8px; }
-      .cta { padding: 32px 22px; }
+      .cta { padding: 32px 0; }
       .button { width: 100%; }
     }
   </style>
@@ -323,12 +324,14 @@
       </div>
     </section>
 
-    <section class="container cta" aria-label="お問い合わせ">
-      <div>
-        <h2>AI SaaSで、ビジネスの可能性を広げる。</h2>
-        <p>AI活用やサービス導入に関するご相談・ご質問はお気軽にお問い合わせください。</p>
+    <section class="cta" aria-label="お問い合わせ">
+      <div class="container cta-inner">
+        <div>
+          <h2>AI SaaSで、ビジネスの可能性を広げる。</h2>
+          <p>AI活用やサービス導入に関するご相談・ご質問はお気軽にお問い合わせください。</p>
+        </div>
+        <a class="button" href="mailto:info@aisif.jp">お問い合わせ</a>
       </div>
-      <a class="button" href="mailto:info@aisif.jp">お問い合わせ</a>
     </section>
   </main>
 
